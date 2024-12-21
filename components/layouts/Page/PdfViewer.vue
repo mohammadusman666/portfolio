@@ -33,7 +33,6 @@ onMounted(() => {
   overflow: scroll;
   .canvasWrapper {
     width: 100%;
-
   }
 }
 

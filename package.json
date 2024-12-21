@@ -3,7 +3,6 @@
   "version": "2.0.12",
   "description": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
   "author": "TuyenLe",
-  "private": false,
   "license": "MIT",
   "type": "module",
   "main": "./nuxt.config.ts",
@@ -48,11 +47,11 @@
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.5.0",
-    "pdfjs-dist": "2.0.943",
     "@vueuse/nuxt": "^10.5.0",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.6.1",
     "nuxt-swiper": "^1.2.2",
+    "pdfjs-dist": "2.0.943",
     "pinia": "^2.1.7",
     "pm2": "^5.3.1",
     "sass": "^1.69.5",
@@ -91,5 +90,6 @@
     "git": {
       "commitMessage": "chore(release): release v${version}"
     }
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }

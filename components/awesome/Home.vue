@@ -63,7 +63,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
       <!-- About me -->
       <section>
         <div class="content-wrapper pt-2">
-          <div class="relative">
+          <div class="relative flex items-center">
             <div class="relative z-10">
               <div class="w-full lg:w-3/5">
                 <div
@@ -99,7 +99,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               </div>
               <div class="grid-cols-1 md:grid-cols-2 grid md:flex">
                 <div
-                  class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
+                  class="lg:w-2/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
                   <!-- Front-End -->
                   <div>
@@ -640,18 +640,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               </div>
             </div>
 
-            <div
-              class="pointer-events-none absolute -top-36 right-0 z-0 hidden select-none lg:block"
-            >
-              <div
-                class="relative lg:h-[590px] lg:w-[603px] md:hidden lg:block"
-              >
+            <div class="pointer-events-none z-0 hidden select-none lg:block">
+              <div class="relative lg:h-[520px] lg:w-[416px]">
                 <div
-                  class="from-accent-400/20 via-accent-400/0 absolute top-20 right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0 dark:bg-slate-400"
+                  class="from-accent-400/20 via-accent-400/0 absolute right-0 h-[520px] w-[416px] rounded-full bg-gradient-to-t dark:from-accent-600/10 dark:via-accent-600/0 dark:bg-slate-400"
                 >
-                  <div
-                    class="absolute right-0 bottom-0 overflow-hidden hidden lg:block md:hidden"
-                  >
+                  <div class="overflow-hidden">
                     <div style="opacity: 1s">
                       <img
                         format="webp"
@@ -659,7 +653,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                         height="520"
                         alt="me"
                         src="/images/me.webp"
-                        class="hidden lg:block lg:w-[416px] lg:h-[520px] dark:brightness-[.82] rounded-full"
+                        class="lg:w-[416px] lg:h-[520px] dark:brightness-[.82] rounded-full"
                         style="color: transparent"
                       />
                     </div>

@@ -69,7 +69,7 @@ useHead({
         <template #default="{ list }">
           <div class="min-h-[calc(100vh+1rem)]">
             <div
-              class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16 "
+              class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16"
             >
               <article
                 v-for="article in list"
@@ -78,7 +78,7 @@ useHead({
               >
                 <AwesomeLink
                   :to="article._path"
-                  class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100  shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40"
+                  class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40"
                 >
                   <img
                     width="400"

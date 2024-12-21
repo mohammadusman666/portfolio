@@ -95,9 +95,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   </span>
                 </span>
               </div>
-              <div
-                class="grid-cols-1 md:grid-cols-2 grid md:flex"
-              >
+              <div class="grid-cols-1 md:grid-cols-2 grid md:flex">
                 <div
                   class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
